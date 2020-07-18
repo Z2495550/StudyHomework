@@ -1,0 +1,57 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "test_add[int]",
+    "uid" : "45053f3717f5f421",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1595052795963,
+      "stop" : 1595052795963,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "1", "2", "3" ]
+  }, {
+    "name" : "test_cut[int]",
+    "uid" : "96a8564bc865b9c2",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1595052795967,
+      "stop" : 1595052795967,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "2", "1", "1" ]
+  }, {
+    "name" : "test_mult[int]",
+    "uid" : "3a9489413e30ea07",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1595052795971,
+      "stop" : 1595052795971,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "2", "2", "4" ]
+  }, {
+    "name" : "test_div[int]",
+    "uid" : "d284b1ab84ef1379",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1595052795974,
+      "stop" : 1595052795974,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "4", "2", "2" ]
+  } ]
+}
