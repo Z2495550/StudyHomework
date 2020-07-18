@@ -13,7 +13,7 @@ file = './data/test.yaml'
 with open(file,'r',encoding='utf-8') as f:
     datas = yaml.safe_load(f)
     adds = datas['add'].keys()
-    add_datas = list(datas['add'].values())
+    add_datas = datas['add'].values()
     cuts = datas['cut'].keys()
     cut_datas = datas['cut'].values()
     mults = datas['mult'].keys()
@@ -37,17 +37,21 @@ class TestCalc():
     #     (-1,1,0)
     # ],)
     @pytest.mark.parametrize(('a,b,result'),add_datas,ids=adds)
+    @pytest.mark.add
     def test_add(self, a, b, result ):
         assert result == self.cal.add(a, b)
 
     @pytest.mark.parametrize('a,b,result',cut_datas,ids=cuts)
+    @pytest.mark.cut
     def test_cut(self, a, b, result):
         assert result == self.cal.cut(a, b)
 
     @pytest.mark.parametrize('a,b,result',mult_datas,ids=mults)
+    @pytest.mark.mult
     def test_mult(self, a, b, result):
         assert result == self.cal.mult(a, b)
 
     @pytest.mark.parametrize('a,b,result',div_datas,ids=divs)
+    @pytest.mark.div
     def test_div(self, a, b, result):
         assert result == self.cal.div(a, b)
