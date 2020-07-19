@@ -1,0 +1,125 @@
+{
+  "uid" : "d0699abbd3ec2f2c",
+  "name" : "test_mult[float]",
+  "fullName" : "testing.test_cal.TestCalc#test_mult[float]",
+  "historyId" : "5f5cfe6d9105d8916011903c7a91fdc1",
+  "time" : {
+    "start" : 1595067547945,
+    "stop" : 1595067547945,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 0.04 == 0.04000000000000001\n +  where 0.04000000000000001 = <bound method Calculator.mult of <pythoncode.calc.Calculator object at 0x10579aeb8>>(0.2, 0.2)\n +    where <bound method Calculator.mult of <pythoncode.calc.Calculator object at 0x10579aeb8>> = <pythoncode.calc.Calculator object at 0x10579aeb8>.mult\n +      where <pythoncode.calc.Calculator object at 0x10579aeb8> = <testing.test_cal.TestCalc object at 0x10579dda0>.cal",
+  "statusTrace" : "self = <testing.test_cal.TestCalc object at 0x10579dda0>, a = 0.2, b = 0.2\nresult = 0.04\n\n    @pytest.mark.parametrize('a,b,result',mult_datas,ids=mults)\n    def test_mult(self, a, b, result):\n>       assert result == self.cal.mult(a, b)\nE       assert 0.04 == 0.04000000000000001\nE        +  where 0.04000000000000001 = <bound method Calculator.mult of <pythoncode.calc.Calculator object at 0x10579aeb8>>(0.2, 0.2)\nE        +    where <bound method Calculator.mult of <pythoncode.calc.Calculator object at 0x10579aeb8>> = <pythoncode.calc.Calculator object at 0x10579aeb8>.mult\nE        +      where <pythoncode.calc.Calculator object at 0x10579aeb8> = <testing.test_cal.TestCalc object at 0x10579dda0>.cal\n\ntesting/test_cal.py:49: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1595067547870,
+      "stop" : 1595067547870,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "start",
+    "time" : {
+      "start" : 1595067547944,
+      "stop" : 1595067547944,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1595067548010,
+      "stop" : 1595067548011,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "start::0",
+    "time" : {
+      "start" : 1595067547984,
+      "stop" : 1595067547984,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testing"
+  }, {
+    "name" : "suite",
+    "value" : "test_cal"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCalc"
+  }, {
+    "name" : "host",
+    "value" : "zhangbijiangdeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "25512-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testing.test_cal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "a",
+    "value" : "0.2"
+  }, {
+    "name" : "b",
+    "value" : "0.2"
+  }, {
+    "name" : "result",
+    "value" : "0.04"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d0699abbd3ec2f2c.json",
+  "parameterValues" : [ "0.2", "0.2", "0.04" ]
+}

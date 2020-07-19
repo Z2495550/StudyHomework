@@ -1,0 +1,176 @@
+{
+  "uid" : "e18ffc43f08b53a3",
+  "name" : "test_div[int]",
+  "fullName" : "testing.test_cal.TestCalc#test_div[int]",
+  "historyId" : "78acbf02a8f8b2c5f559bd6504ae9897",
+  "time" : {
+    "start" : 1595067712033,
+    "stop" : 1595067712033,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "start",
+    "time" : {
+      "start" : 1595067712033,
+      "stop" : 1595067712033,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1595067711902,
+      "stop" : 1595067711902,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "start::0",
+    "time" : {
+      "start" : 1595067712036,
+      "stop" : 1595067712036,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1595067712062,
+      "stop" : 1595067712062,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "div"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testing"
+  }, {
+    "name" : "suite",
+    "value" : "test_cal"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCalc"
+  }, {
+    "name" : "host",
+    "value" : "zhangbijiangdeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "25564-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testing.test_cal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "a",
+    "value" : "1"
+  }, {
+    "name" : "b",
+    "value" : "1"
+  }, {
+    "name" : "result",
+    "value" : "1"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "57daa3f412ced18e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595067547987,
+        "stop" : 1595067547987,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "6f5c13a3ec669634",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595054121520,
+        "stop" : 1595054121520,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "5b776bf34a3e03ff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595053844200,
+        "stop" : 1595053844200,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "b7e0bde57635d9f0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595052795974,
+        "stop" : 1595052795974,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "4137300d286fd9d6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595052738652,
+        "stop" : 1595052738652,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "a19b617696db3b28",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595052032819,
+        "stop" : 1595052032819,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "div" ]
+  },
+  "source" : "e18ffc43f08b53a3.json",
+  "parameterValues" : [ "1", "1", "1" ]
+}
